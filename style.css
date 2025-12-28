@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+}
+
+.container {
+    padding: 50px 20px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-family: 'Arsenica', serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-family: 'Arimo', sans-serif;
+    font-size: 20px;
+}
+
+.hero-image {
+    width: 80%;
+    max-width: 300px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+.music {
+    margin-top: 20px;
+}
+
+.spotify-button {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: #1DB954; /* зелёный Spotify */
+    color: white;
+    font-family: 'Arimo', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.spotify-button:hover {
+    background-color: #1ed760; /* светлее при наведении */
+}
+
+.footer {
+    margin-top: 30px;
+    font-size: 18px;
+}
